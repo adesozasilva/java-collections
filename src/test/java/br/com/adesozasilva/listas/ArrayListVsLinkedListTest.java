@@ -1,13 +1,11 @@
 package br.com.adesozasilva.listas;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import junit.framework.Assert;
+import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class ArrayListVsLinkedListTest {
 	
@@ -16,7 +14,7 @@ public class ArrayListVsLinkedListTest {
 	private int quantidadeElementos;
 
 	@Before
-	public void setUp() throws Exception {
+	public void setUp()  {
 		System.out.println("**** ArrayList vs LinkedList ***");
 		numerosArrayList = new ArrayList<>();
 		numerosLinkedList = new LinkedList<>();
